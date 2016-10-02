@@ -11,5 +11,6 @@ iron = "^0.4.0"
 plugin = "^0.2.6"
 
 [dependencies.cookie]
-version = { git = "https://github.com/alexcrichton/cookie-rs", rev = "c9e707263f6633c8828a8eaac5e0439bff0e286e" }
+git = "https://github.com/alexcrichton/cookie-rs"
+rev = "c9e707263f6633c8828a8eaac5e0439bff0e286e"
 features = ["secure"]
